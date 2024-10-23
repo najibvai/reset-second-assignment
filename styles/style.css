@@ -228,7 +228,8 @@ body {
     gap: 165px;
     background-color: rgb(34, 34, 34);
 }
-.run-extra-title{
+
+.run-extra-title {
     font-weight: 900px;
     font-size: 3rem;
     color: white;
@@ -238,4 +239,26 @@ body {
     width: 366px;
     height: 312px;
     border-radius: 18px;
+}
+
+/* BMI Calculator */
+.bmi-section {
+    width: 100%;
+    margin: 0 auto;
+}
+.bmi-content{
+    text-align: center;
+    margin-top: 74px;
+}
+
+.bmi-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.bmi-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
