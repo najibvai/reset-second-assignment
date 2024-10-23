@@ -140,13 +140,14 @@ body {
 } */
 
 
-.dots{
+.dots {
     height: 40px;
     width: 40px;
     background-color: rgb(230, 83, 60);
     border-radius: 50%;
     display: inline-block;
-  }
+}
+
 #video-tutorial-btn {
     display: flex;
     justify-content: center;
@@ -159,14 +160,82 @@ body {
     margin-left: -100px;
     background: rgba(48, 48, 48, 0.54);
 }
-#video-tutorial-title{
+
+#video-tutorial-title {
     font-weight: 900;
     font-size: 1.5rem;
     color: white;
 }
-#video-tutorial-description{
+
+#video-tutorial-description {
     font-weight: 400px;
     font-size: 1rem;
     color: rgba(239, 237, 232, 0.65);
     margin-top: 8px;
+}
+
+/* -----------------------------Main part------------------------------------- */
+/* ----------------------------------Habits Section------------------------------------ */
+.habits-section {
+    max-width: 1440px;
+    margin: 150px auto 0 auto;
+    text-align: center;
+}
+
+.habits-title {
+    font-weight: 900px;
+    font-size: 3rem;
+    color: white;
+}
+
+.habits-description {
+    font-weight: 400px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habits-contents {
+    margin-top: 58px;
+    gap: 45px;
+}
+
+.habits-img {
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.habits-content-title {
+    font-weight: 600px;
+    font-size: 1rem;
+    color: white;
+}
+
+.habits-content-description {
+    font-weight: 400px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------------------Run Extra section--------------------------------- */
+.run-extra-section {
+    max-width: 1440px;
+    margin: 100px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 32px 30px 54px;
+    border-radius: 18px;
+    gap: 165px;
+    background-color: rgb(34, 34, 34);
+}
+.run-extra-title{
+    font-weight: 900px;
+    font-size: 3rem;
+    color: white;
+}
+
+.run-img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
 }
